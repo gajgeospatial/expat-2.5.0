@@ -1,0 +1,85 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "elements", "elements.vcxproj", "{D388FE0D-6248-3423-B453-37C4B60FB353}"
+	ProjectSection(ProjectDependencies) = postProject
+		{72CCDE84-E27A-3C7E-B078-78DE20A25C86} = {72CCDE84-E27A-3C7E-B078-78DE20A25C86}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "expat", "expat.vcxproj", "{72CCDE84-E27A-3C7E-B078-78DE20A25C86}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "outline", "outline.vcxproj", "{CFFDD34C-D613-333E-A2E7-692649B83758}"
+	ProjectSection(ProjectDependencies) = postProject
+		{72CCDE84-E27A-3C7E-B078-78DE20A25C86} = {72CCDE84-E27A-3C7E-B078-78DE20A25C86}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "runtests", "runtests.vcxproj", "{4763F38C-9741-3D2F-B8BA-E18BCCB04F62}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "runtestspp", "runtestspp.vcxproj", "{3D811A6E-04E9-3F67-BECB-685E0320EBDC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xmlwf", "xmlwf.vcxproj", "{DBD4A8A4-877E-3D73-8906-C8967B5C751D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{72CCDE84-E27A-3C7E-B078-78DE20A25C86} = {72CCDE84-E27A-3C7E-B078-78DE20A25C86}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D388FE0D-6248-3423-B453-37C4B60FB353}.vs2019_Debug|x64.ActiveCfg = vs2019_Debug|x64
+		{D388FE0D-6248-3423-B453-37C4B60FB353}.vs2019_Debug|x64.Build.0 = vs2019_Debug|x64
+		{D388FE0D-6248-3423-B453-37C4B60FB353}.vs2019_Release|x64.ActiveCfg = vs2019_Release|x64
+		{D388FE0D-6248-3423-B453-37C4B60FB353}.vs2019_Release|x64.Build.0 = vs2019_Release|x64
+		{D388FE0D-6248-3423-B453-37C4B60FB353}.vs2022_Debug|x64.ActiveCfg = vs2022_Debug|x64
+		{D388FE0D-6248-3423-B453-37C4B60FB353}.vs2022_Debug|x64.Build.0 = vs2022_Debug|x64
+		{D388FE0D-6248-3423-B453-37C4B60FB353}.vs2022_Release|x64.ActiveCfg = vs2022_Release|x64
+		{D388FE0D-6248-3423-B453-37C4B60FB353}.vs2022_Release|x64.Build.0 = vs2022_Release|x64
+		{72CCDE84-E27A-3C7E-B078-78DE20A25C86}.vs2019_Debug|x64.ActiveCfg = vs2019_Debug|x64
+		{72CCDE84-E27A-3C7E-B078-78DE20A25C86}.vs2019_Debug|x64.Build.0 = vs2019_Debug|x64
+		{72CCDE84-E27A-3C7E-B078-78DE20A25C86}.vs2019_Release|x64.ActiveCfg = vs2019_Release|x64
+		{72CCDE84-E27A-3C7E-B078-78DE20A25C86}.vs2019_Release|x64.Build.0 = vs2019_Release|x64
+		{72CCDE84-E27A-3C7E-B078-78DE20A25C86}.vs2022_Debug|x64.ActiveCfg = vs2022_Debug|x64
+		{72CCDE84-E27A-3C7E-B078-78DE20A25C86}.vs2022_Debug|x64.Build.0 = vs2022_Debug|x64
+		{72CCDE84-E27A-3C7E-B078-78DE20A25C86}.vs2022_Release|x64.ActiveCfg = vs2022_Release|x64
+		{72CCDE84-E27A-3C7E-B078-78DE20A25C86}.vs2022_Release|x64.Build.0 = vs2022_Release|x64
+		{CFFDD34C-D613-333E-A2E7-692649B83758}.vs2019_Debug|x64.ActiveCfg = vs2019_Debug|x64
+		{CFFDD34C-D613-333E-A2E7-692649B83758}.vs2019_Debug|x64.Build.0 = vs2019_Debug|x64
+		{CFFDD34C-D613-333E-A2E7-692649B83758}.vs2019_Release|x64.ActiveCfg = vs2019_Release|x64
+		{CFFDD34C-D613-333E-A2E7-692649B83758}.vs2019_Release|x64.Build.0 = vs2019_Release|x64
+		{CFFDD34C-D613-333E-A2E7-692649B83758}.vs2022_Debug|x64.ActiveCfg = vs2022_Debug|x64
+		{CFFDD34C-D613-333E-A2E7-692649B83758}.vs2022_Debug|x64.Build.0 = vs2022_Debug|x64
+		{CFFDD34C-D613-333E-A2E7-692649B83758}.vs2022_Release|x64.ActiveCfg = vs2022_Release|x64
+		{CFFDD34C-D613-333E-A2E7-692649B83758}.vs2022_Release|x64.Build.0 = vs2022_Release|x64
+		{4763F38C-9741-3D2F-B8BA-E18BCCB04F62}.vs2019_Debug|x64.ActiveCfg = vs2019_Debug|x64
+		{4763F38C-9741-3D2F-B8BA-E18BCCB04F62}.vs2019_Debug|x64.Build.0 = vs2019_Debug|x64
+		{4763F38C-9741-3D2F-B8BA-E18BCCB04F62}.vs2019_Release|x64.ActiveCfg = vs2019_Release|x64
+		{4763F38C-9741-3D2F-B8BA-E18BCCB04F62}.vs2019_Release|x64.Build.0 = vs2019_Release|x64
+		{4763F38C-9741-3D2F-B8BA-E18BCCB04F62}.vs2022_Debug|x64.ActiveCfg = vs2022_Debug|x64
+		{4763F38C-9741-3D2F-B8BA-E18BCCB04F62}.vs2022_Debug|x64.Build.0 = vs2022_Debug|x64
+		{4763F38C-9741-3D2F-B8BA-E18BCCB04F62}.vs2022_Release|x64.ActiveCfg = vs2022_Release|x64
+		{4763F38C-9741-3D2F-B8BA-E18BCCB04F62}.vs2022_Release|x64.Build.0 = vs2022_Release|x64
+		{3D811A6E-04E9-3F67-BECB-685E0320EBDC}.vs2019_Debug|x64.ActiveCfg = vs2019_Debug|x64
+		{3D811A6E-04E9-3F67-BECB-685E0320EBDC}.vs2019_Debug|x64.Build.0 = vs2019_Debug|x64
+		{3D811A6E-04E9-3F67-BECB-685E0320EBDC}.vs2019_Release|x64.ActiveCfg = vs2019_Release|x64
+		{3D811A6E-04E9-3F67-BECB-685E0320EBDC}.vs2019_Release|x64.Build.0 = vs2019_Release|x64
+		{3D811A6E-04E9-3F67-BECB-685E0320EBDC}.vs2022_Debug|x64.ActiveCfg = vs2022_Debug|x64
+		{3D811A6E-04E9-3F67-BECB-685E0320EBDC}.vs2022_Debug|x64.Build.0 = vs2022_Debug|x64
+		{3D811A6E-04E9-3F67-BECB-685E0320EBDC}.vs2022_Release|x64.ActiveCfg = vs2022_Release|x64
+		{3D811A6E-04E9-3F67-BECB-685E0320EBDC}.vs2022_Release|x64.Build.0 = vs2022_Release|x64
+		{DBD4A8A4-877E-3D73-8906-C8967B5C751D}.vs2019_Debug|x64.ActiveCfg = vs2019_Debug|x64
+		{DBD4A8A4-877E-3D73-8906-C8967B5C751D}.vs2019_Debug|x64.Build.0 = vs2019_Debug|x64
+		{DBD4A8A4-877E-3D73-8906-C8967B5C751D}.vs2019_Release|x64.ActiveCfg = vs2019_Release|x64
+		{DBD4A8A4-877E-3D73-8906-C8967B5C751D}.vs2019_Release|x64.Build.0 = vs2019_Release|x64
+		{DBD4A8A4-877E-3D73-8906-C8967B5C751D}.vs2022_Debug|x64.ActiveCfg = vs2022_Debug|x64
+		{DBD4A8A4-877E-3D73-8906-C8967B5C751D}.vs2022_Debug|x64.Build.0 = vs2022_Debug|x64
+		{DBD4A8A4-877E-3D73-8906-C8967B5C751D}.vs2022_Release|x64.ActiveCfg = vs2022_Release|x64
+		{DBD4A8A4-877E-3D73-8906-C8967B5C751D}.vs2022_Release|x64.Build.0 = vs2022_Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D9D7C939-4042-3DD8-9DBD-561C9BCAAD03}
+	EndGlobalSection
+EndGlobal

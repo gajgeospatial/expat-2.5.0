@@ -1,0 +1,36 @@
+# CMake generated Testfile for 
+# Source directory: N:/Development/Dev_Base/expat-2.5.0
+# Build directory: N:/Development/Dev_Base/expat-2.5.0/msvc
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+if("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+  add_test(runtests "N:/Development/Dev_Base/expat-2.5.0/msvc/tests/Debug/runtests.exe")
+  set_tests_properties(runtests PROPERTIES  _BACKTRACE_TRIPLES "N:/Development/Dev_Base/expat-2.5.0/CMakeLists.txt;615;add_test;N:/Development/Dev_Base/expat-2.5.0/CMakeLists.txt;627;expat_add_test;N:/Development/Dev_Base/expat-2.5.0/CMakeLists.txt;0;")
+elseif("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+  add_test(runtests "N:/Development/Dev_Base/expat-2.5.0/msvc/tests/Release/runtests.exe")
+  set_tests_properties(runtests PROPERTIES  _BACKTRACE_TRIPLES "N:/Development/Dev_Base/expat-2.5.0/CMakeLists.txt;615;add_test;N:/Development/Dev_Base/expat-2.5.0/CMakeLists.txt;627;expat_add_test;N:/Development/Dev_Base/expat-2.5.0/CMakeLists.txt;0;")
+elseif("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
+  add_test(runtests "N:/Development/Dev_Base/expat-2.5.0/msvc/tests/MinSizeRel/runtests.exe")
+  set_tests_properties(runtests PROPERTIES  _BACKTRACE_TRIPLES "N:/Development/Dev_Base/expat-2.5.0/CMakeLists.txt;615;add_test;N:/Development/Dev_Base/expat-2.5.0/CMakeLists.txt;627;expat_add_test;N:/Development/Dev_Base/expat-2.5.0/CMakeLists.txt;0;")
+elseif("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
+  add_test(runtests "N:/Development/Dev_Base/expat-2.5.0/msvc/tests/RelWithDebInfo/runtests.exe")
+  set_tests_properties(runtests PROPERTIES  _BACKTRACE_TRIPLES "N:/Development/Dev_Base/expat-2.5.0/CMakeLists.txt;615;add_test;N:/Development/Dev_Base/expat-2.5.0/CMakeLists.txt;627;expat_add_test;N:/Development/Dev_Base/expat-2.5.0/CMakeLists.txt;0;")
+else()
+  add_test(runtests NOT_AVAILABLE)
+endif()
+if("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+  add_test(runtestspp "N:/Development/Dev_Base/expat-2.5.0/msvc/tests/Debug/runtestspp.exe")
+  set_tests_properties(runtestspp PROPERTIES  _BACKTRACE_TRIPLES "N:/Development/Dev_Base/expat-2.5.0/CMakeLists.txt;615;add_test;N:/Development/Dev_Base/expat-2.5.0/CMakeLists.txt;627;expat_add_test;N:/Development/Dev_Base/expat-2.5.0/CMakeLists.txt;0;")
+elseif("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+  add_test(runtestspp "N:/Development/Dev_Base/expat-2.5.0/msvc/tests/Release/runtestspp.exe")
+  set_tests_properties(runtestspp PROPERTIES  _BACKTRACE_TRIPLES "N:/Development/Dev_Base/expat-2.5.0/CMakeLists.txt;615;add_test;N:/Development/Dev_Base/expat-2.5.0/CMakeLists.txt;627;expat_add_test;N:/Development/Dev_Base/expat-2.5.0/CMakeLists.txt;0;")
+elseif("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
+  add_test(runtestspp "N:/Development/Dev_Base/expat-2.5.0/msvc/tests/MinSizeRel/runtestspp.exe")
+  set_tests_properties(runtestspp PROPERTIES  _BACKTRACE_TRIPLES "N:/Development/Dev_Base/expat-2.5.0/CMakeLists.txt;615;add_test;N:/Development/Dev_Base/expat-2.5.0/CMakeLists.txt;627;expat_add_test;N:/Development/Dev_Base/expat-2.5.0/CMakeLists.txt;0;")
+elseif("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
+  add_test(runtestspp "N:/Development/Dev_Base/expat-2.5.0/msvc/tests/RelWithDebInfo/runtestspp.exe")
+  set_tests_properties(runtestspp PROPERTIES  _BACKTRACE_TRIPLES "N:/Development/Dev_Base/expat-2.5.0/CMakeLists.txt;615;add_test;N:/Development/Dev_Base/expat-2.5.0/CMakeLists.txt;627;expat_add_test;N:/Development/Dev_Base/expat-2.5.0/CMakeLists.txt;0;")
+else()
+  add_test(runtestspp NOT_AVAILABLE)
+endif()
