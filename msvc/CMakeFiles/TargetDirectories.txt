@@ -4,7 +4,4 @@ N:/Development/Dev_Base/expat-2.5.0/msvc/CMakeFiles/xmlwf.dir
 N:/Development/Dev_Base/expat-2.5.0/msvc/CMakeFiles/elements.dir
 N:/Development/Dev_Base/expat-2.5.0/msvc/CMakeFiles/PACKAGE.dir
 N:/Development/Dev_Base/expat-2.5.0/msvc/CMakeFiles/runtestspp.dir
-N:/Development/Dev_Base/expat-2.5.0/msvc/CMakeFiles/runtests.dir
-N:/Development/Dev_Base/expat-2.5.0/msvc/CMakeFiles/RUN_TESTS.dir
-N:/Development/Dev_Base/expat-2.5.0/msvc/CMakeFiles/ALL_BUILD.dir
-N:/Development/Dev_Base/expat-2.5.0/msvc/CMakeFiles/ZERO_CHECK.dir
+

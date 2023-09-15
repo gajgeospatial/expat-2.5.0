@@ -482,18 +482,6 @@
   <ItemGroup>
     <ClCompile Include="..\examples\elements.c" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include=".\ZERO_CHECK.vcxproj">
-      <Project>{BC56CD24-69D9-3FBF-BF66-5B95BD9F40D6}</Project>
-      <Name>ZERO_CHECK</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </ProjectReference>
-    <ProjectReference Include=".\expat.vcxproj">
-      <Project>{72CCDE84-E27A-3C7E-B078-78DE20A25C86}</Project>
-      <Name>expat</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
